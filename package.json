@@ -1,0 +1,33 @@
+{
+  "name": "Bitcoin",
+  "description": "ReactApp",
+  "version": "1.0.0",
+  "author": "VO_FE_Developer",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --open",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "file-loader": "^2.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^1.0.1",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
